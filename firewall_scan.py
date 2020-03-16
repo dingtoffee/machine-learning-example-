@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split # Import train_test_split f
 # read the data 
 data  = pd.read_csv("D:\\OneDrive\\Machine Learning Reference\\firewall_traffic_20200316.csv", header = 0)
 # features used for evaluation 
-feature_cols = ['TOTAL', 'accept_count', 'client-rst_count', 'close_count', 'date_occurance', 'deny_count', 'internet', 'ip_c', 'isinfra', 'protco_count', 'server-rst_count']
+feature_cols = ['TOTAL', 'accept_count', 'date_occurance', 'deny_count', 'internet', 'ip_c', 'isinfra', 'protco_count']
 X = data[feature_cols]
 # Y axis i.e. the column that prediction is going to run 
 y = data.tag
