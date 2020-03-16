@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier # import decision tree model
 from sklearn.model_selection import train_test_split # Import train_test_split function
 
 # read the data 
-data  = pd.read_csv("D:\\OneDrive\\Machine Learning Reference\\firewall_traffic_20200316.csv", header = 0)
+data  = pd.read_csv("your file path", header = 0) # please update the file path
 # features used for evaluation 
 feature_cols = ['TOTAL', 'accept_count', 'date_occurance', 'deny_count', 'internet', 'ip_c', 'isinfra', 'protco_count']
 X = data[feature_cols]
