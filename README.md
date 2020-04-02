@@ -8,4 +8,4 @@ This repo documents the use cases I developed to enable anomaly detection via Ma
 Training/Testing dataset and also python script will be provided. On each of the use case, you could also take a look at the link below on how I developed the model. 
 
 -  [Network Scan](Network_Scan/Network_Scan_README.md) 
--  User Activities Anomaly 
+-  [User Activities Anomaly](user_activity_anomaly/user_activity_README.md)
