@@ -1,4 +1,4 @@
-# machine-learning-example
+# Machine Learning in CyberSecurity 
 Machine Learning in CyberSecurity - Intrusion Detection examples - DataSet and Training Scripts
 
 ## What is this Repo?
